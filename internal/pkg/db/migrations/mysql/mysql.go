@@ -24,6 +24,8 @@ func InitDB() {
 	Db = db
 }
 
+//komentar
+
 func CloseDB() error {
 	return Db.Close()
 }
